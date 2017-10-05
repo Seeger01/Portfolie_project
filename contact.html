@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="Keywords" content="web design, media design, portfolie, pse-designs">
+<meta name="author" content="Patrick Seeger">
+<title>Portfolie</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<header>
+  <div class="square">
+    <div id="logo">
+      <h1><span class="highlight">PSE</span>-DESIGNS</h1>
+    </div>
+    <!--Main navigation links-->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Contact</a> </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section id="frontimage">
+  <div class="square">
+    <div id="contact">
+      <h3>Contact me</h3>
+      <form action="mailto:cph-ps@cphbusiness.dk?subject=sending my form" method="post" enctype="text/plain">
+        <!--Constraint validation af et web form med attributerne name "required" og type-->
+        <p>
+          <input name="name" type="text" placeholder="Name..." required>
+        </p>
+        <p>
+          <input name="mail" type="email" placeholder="E-mail" required>
+        </p>
+        <p>
+          <textarea name="message" placeholder="Message"></textarea>
+        </p>
+        <p>
+          <button class="button1" name="submit" type="submit"> Send </button>
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+<footer>
+  <p> Patrick Seeger, copyright &copy; 2017 </p>
+</footer>
+</body>
+</html>

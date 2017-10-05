@@ -1,0 +1,114 @@
+@charset "UTF-8";
+body {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+/*Fælles for alle sider*/
+.square {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.button1 {
+	background: #9a9a9a;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+/*Header*/
+header {
+	background: #001931;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #9a9a9a 3px solid;
+}
+header a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #logo {
+	float: left;
+}
+header #logo h1 {
+	margin: 0;
+}
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+header .highlight {
+	color: #9A9A9A;
+	font-weight: bold;
+}
+header a:hover {
+	color: #9A9A9A;
+	font-weight: bold;
+}
+/*frontimage*/
+#frontimage {
+	min-height: 800px;
+	background: url(Billeder/Himmel.jpg) no-repeat;
+	text-align: center;
+	color: #FFFFFF;
+}
+#frontimage h3 {
+	margin-top: 30px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+/*about*/
+.about {
+	float: left;
+	border: #9A9A9A solid 3px;
+}
+.about_h1 h1 {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding: 0px;
+	font-size: 40px;
+}
+/*project*/
+#row {
+	margin-top: 100px;
+}
+#row .col {
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 60px 0 0 30px;
+}
+#row .col img {
+	width: 300px;
+	height: 150px;
+}
+/*contact*/
+#contact {
+	color: #FFFFFF;
+}
+#contact h1, form {
+	text-align: center;
+	margin: 30px;
+	padding: 0px;
+}
+/*footer*/
+footer {
+	padding: 10px;
+	color: #ffffff;
+	background-color: #9a9a9a;
+	text-align: center;
+}
